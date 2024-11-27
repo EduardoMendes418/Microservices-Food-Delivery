@@ -16,7 +16,7 @@ export class Avatars {
 }
 
 @ObjectType()
-export class user {
+export class User {
     @Field()
     id: string;
 
