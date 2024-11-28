@@ -34,7 +34,12 @@ export class UsersService {
 
   //get alt user service
   async getUsers() {
-    const users = []
+    const users = [{
+      id: "1",
+      name: "test",
+      email: "eduardo@gmail.com",
+      password: "123",
+    }]
     return users;
   }
 
